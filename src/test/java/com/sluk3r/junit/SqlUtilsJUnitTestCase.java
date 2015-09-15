@@ -37,10 +37,4 @@ public class SqlUtilsJUnitTestCase extends TestCase {
         original.setNextException(nestedWarning);
         SqlUtils.toSQLException(original);
     }
-
-    public static void main(String[] argv) {
-        junit.textui.TestRunner.run(new TestSuite(SqlUtilsJUnitTestCase.class));
-        //junit.swingui.TestRunner.run( SqlUtilsJUnitTestCase.class );
-        //new SqlUtilsJUnitTestCase().testGoodDebugLoggingOfNestedExceptions();
-    }
 }

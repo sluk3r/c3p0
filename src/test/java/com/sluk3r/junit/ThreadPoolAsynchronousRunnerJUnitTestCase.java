@@ -99,10 +99,4 @@ public class ThreadPoolAsynchronousRunnerJUnitTestCase extends TestCase {
             }
         }
     }
-
-    public static void main(String[] argv) {
-        junit.textui.TestRunner.run(new TestSuite(ThreadPoolAsynchronousRunnerJUnitTestCase.class));
-        //junit.swingui.TestRunner.run( SqlUtilsJUnitTestCase.class );
-        //new SqlUtilsJUnitTestCase().testGoodDebugLoggingOfNestedExceptions();
-    }
 }

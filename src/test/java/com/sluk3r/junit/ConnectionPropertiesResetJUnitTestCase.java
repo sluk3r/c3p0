@@ -21,7 +21,8 @@
  */
 
 
-package com.sluk3r.junit.junit;
+package com.sluk3r.junit;
+
 
 import java.sql.*;
 import java.util.*;

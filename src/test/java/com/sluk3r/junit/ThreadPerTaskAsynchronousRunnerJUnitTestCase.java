@@ -172,10 +172,4 @@ public class ThreadPerTaskAsynchronousRunnerJUnitTestCase extends TestCase {
             }
         }
     }
-
-    public static void main(String[] argv) {
-        junit.textui.TestRunner.run(new TestSuite(ThreadPerTaskAsynchronousRunnerJUnitTestCase.class));
-        //junit.swingui.TestRunner.run( SqlUtilsJUnitTestCase.class );
-        //new SqlUtilsJUnitTestCase().testGoodDebugLoggingOfNestedExceptions();
-    }
 }
